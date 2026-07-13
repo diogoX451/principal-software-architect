@@ -1,12 +1,14 @@
 # principal-software-architect
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![skills.sh](https://skills.sh/b/diogoX451/principal-software-architect)](https://skills.sh/diogoX451/principal-software-architect/principal-software-architect)
 
 **Agent Skill** for principal-level software architecture — system design,
 trade-offs, ADRs, growth strategy, and architecture reviews.
 
-Compatible with the [Agent Skills](https://code.claude.com/docs/en/skills) open
-format used by **Claude Code**, **Grok**, and similar harnesses.
+Compatible with the [Agent Skills](https://agentskills.io) open format and the
+[skills.sh](https://skills.sh) ecosystem — works with **Claude Code**, **Codex**,
+**Cursor**, **OpenCode**, **Grok**, and many other agents.
 
 ## What it does
 
@@ -20,7 +22,31 @@ When activated, the agent behaves as a **Principal Software Architect**:
 
 ## Install
 
-### One-liner (clone + install)
+### Recommended — [skills.sh](https://skills.sh) CLI
+
+```bash
+npx skills add diogoX451/principal-software-architect
+```
+
+Global install (user-level, all projects):
+
+```bash
+npx skills add diogoX451/principal-software-architect -g -y
+```
+
+List without installing:
+
+```bash
+npx skills add diogoX451/principal-software-architect --list
+```
+
+Directory page:
+[skills.sh/diogoX451/principal-software-architect/principal-software-architect](https://skills.sh/diogoX451/principal-software-architect/principal-software-architect)
+
+> **Note:** PromptScript does not support global skill installs. Use the
+> project-scoped command (no `-g`) inside the target repo.
+
+### Alternative — clone + install script
 
 ```bash
 git clone https://github.com/diogoX451/principal-software-architect.git
@@ -45,7 +71,7 @@ cp -R skills/principal-software-architect ~/.claude/skills/
 cp -R skills/principal-software-architect ~/.grok/skills/
 ```
 
-### Project-local (team share)
+### Project-local (team share, no CLI)
 
 ```bash
 mkdir -p .claude/skills .grok/skills
