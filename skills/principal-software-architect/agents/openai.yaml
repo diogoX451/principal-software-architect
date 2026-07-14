@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principal Software Architect"
+  short_description: "Architecture standards across code and production"
+  default_prompt: "Use $principal-software-architect to evaluate this system with only the architecture, domain, data, API, reliability, security, evolution, and engineering standards that materially apply."
