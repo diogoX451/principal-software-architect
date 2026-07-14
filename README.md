@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![skills.sh](https://skills.sh/b/diogoX451/principal-software-architect)](https://skills.sh/diogoX451/principal-software-architect/principal-software-architect)
 
+**Language:** **English** | [Português (Brasil)](README.pt-BR.md)
+
 **Agent Skill** for principal-level software architecture — system design,
 trade-offs, ADRs, growth strategy, and architecture reviews.
 
@@ -143,7 +145,8 @@ Loaded only when material:
 
 ```text
 principal-software-architect/
-├── README.md
+├── README.md                       # English
+├── README.pt-BR.md                 # Português (Brasil)
 ├── LICENSE
 ├── scripts/install.sh
 ├── agents/                         # Claude Code agent definition (optional)
