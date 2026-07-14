@@ -1,7 +1,7 @@
 # principal-software-architect
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![skills.sh](https://skills.sh/b/diogoX451/principal-software-architect)](https://skills.sh/diogoX451/principal-software-architect/principal-software-architect)
+[![skills.sh](https://img.shields.io/badge/skills.sh-principal--software--architect-111827)](https://skills.sh/diogoX451/principal-software-architect/principal-software-architect)
 
 **Language:** **English** | [Português (Brasil)](README.pt-BR.md)
 
